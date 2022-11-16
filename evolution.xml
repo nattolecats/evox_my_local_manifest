@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+
+  <!-- DEVICE TREE -->
+  <project path="device/google/bluejay" name="nattolecats/device_google_bluejay" revision="tiramisu" remote="github" />
+  <project path="device/google/gs101" name="nattolecats/device_google_gs101" revision="tiramisu" remote="github" />
+  <project path="device/google/gs-common" name="CalyxOS/device_google_gs-common" revision="android13" remote="github" />
+
+
+  <!-- KERNEL TREE -->
+  <project path="kernel/google/bluejay" name="AOSPA/android_device_google_bluejay-kernel" revision="topaz" remote="github" />
+  <project path="kernel/google/gs101/private/gs-google" name="LineageOS/android_kernel_google_gs101" revision="lineage-20" remote="github" />
+
+
+  <!-- VENDOR TREE -->
+  <project path="vendor/google/bluejay" name="the-muppets/proprietary_vendor_google_bluejay" revision="lineage-20" remote="gitlab" />
+
+  
+  <!-- HARDWARE TREE -->
+  <!--<project path="hardware/google/pixel" name="LineageOS/android_hardware_google_pixel" revision="lineage-20.0" remote="github" />
+  <project path="hardware/google/gchips" name="LineageOS/android_hardware_google_gchips" revision="lineage-20.0" remote="github" />
+  <project path="hardware/google/graphics/common" name="LineageOS/android_hardware_google_graphics_common" revision="lineage-20.0" remote="github" />-->
+  
+  
+  <!-- BUILD CONFIG PATCH -->
+  <!-- <project path="build/soong/ui/build/paths" name="nattolecats/build_soong_ui_build_paths" revision="tiramisu" remote="github" /> -->
+  
+  
+  
+</manifest> 
