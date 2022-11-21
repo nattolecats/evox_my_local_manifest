@@ -5,8 +5,8 @@
   <!-- DEVICE TREE -->
   <project path="device/google/bluejay" name="nattolecats/device_google_bluejay" revision="tiramisu" remote="github" />
   <project path="device/google/gs101" name="nattolecats/device_google_gs101" revision="tiramisu" remote="github" />
-  <project path="device/google/gs101-sepolicy" name="AOSPA/android_device_google_gs101-sepolicy" revision="topaz" remote="github" />
   <project path="device/google/gs-common" name="CalyxOS/device_google_gs-common" revision="android13" remote="github" />
+  <project path="device/google/gs101-sepolicy" name="CalyxOS/device_google_gs101-sepolicy" revision="android13" remote="github" />
 
 
   <!-- KERNEL TREE -->
@@ -19,9 +19,9 @@
 
   
   <!-- HARDWARE TREE -->
+  <project path="hardware/google/pixel" name="LineageOS/android_hardware_google_pixel" revision="lineage-20.0" remote="github" />
   <project path="hardware/google/gchips" name="LineageOS/android_hardware_google_gchips" revision="lineage-20.0" remote="github" />
-  <!--<project path="hardware/google/pixel" name="LineageOS/android_hardware_google_pixel" revision="lineage-20.0" remote="github" />
-  <project path="hardware/google/graphics/common" name="LineageOS/android_hardware_google_graphics_common" revision="lineage-20.0" remote="github" />-->
+  <project path="hardware/google/graphics/common" name="LineageOS/android_hardware_google_graphics_common" revision="lineage-20.0" remote="github" />
   
   
   <!-- BUILD CONFIG PATCH -->
