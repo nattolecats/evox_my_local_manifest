@@ -1,5 +1,5 @@
 # local_manifests
-local_manifest for my unofficial Evolution X build.
+local_manifest for Pixel 6a on my unofficial Evolution X build.
 
 # Bring up a build
 
