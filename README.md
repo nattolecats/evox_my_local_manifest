@@ -1,5 +1,5 @@
 # local_manifests
-Manifest for Pixel 6a on my unofficial Evolution X build.
+Pixel 6a custom manifest for my unofficial Evolution X build.
 
 ### Sync ###
 
@@ -47,6 +47,9 @@ rm -rf external/android-nn-driver && git clone -b topaz https://github.com/AOSPA
 
 ```
 and pick these commits for necessary:
+
+Avoid ninja error of Google Camera
+https://github.com/nattolecats/vendor_gms/commit/38a6d64ef03b72bb6c3571a4d67f9a651c152014
 
 Avoid compile error: no matching constructor for initialization of 'aidl::android::hardware::power::stats::AocStateResidencyDataProvider'
 https://github.com/AOSPA/android_device_google_gs101/commit/a40e7ad35d3199cafcc97a96f4671c4060bdefc1
