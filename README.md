@@ -7,7 +7,7 @@ Manifest for Pixel 6a on my unofficial Evolution X build.
 # Initialize local repository
 repo init -u https://github.com/Evolution-X/manifest -b tiramisu
 
-# Clone my manifest
+# Clone my custom manifest
 git clone -b tiramisu https://github.com/nattolecats/local_manifests_bluejay .repo/local_manifests
 
 # Sync
@@ -45,6 +45,4 @@ rm -rf hardware/google/graphics/common && git clone -b lineage-20.0 https://gith
 rm -rf external/armnn && git clone -b topaz https://github.com/AOSPA/android_external_armnn external/armnn
 rm -rf external/android-nn-driver && git clone -b topaz https://github.com/AOSPA/android_external_android-nn-driver external/android-nn-driver
 
-# Avoid pahole error during building kernel
-rm -rf build/soong/ui/build/paths && git clone -b tiramisu https://github.com/nattolecats/build_soong_ui_build_paths build/soong/ui/build/paths
 ```
