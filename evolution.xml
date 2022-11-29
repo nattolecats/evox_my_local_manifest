@@ -7,6 +7,7 @@
   <project path="device/google/gs101" name="nattolecats/device_google_gs101" revision="tiramisu" remote="github" />
   <project path="device/google/gs-common" name="CalyxOS/device_google_gs-common" revision="android13" remote="github" />
   <project path="device/google/gs101-sepolicy" name="AOSPA/android_device_google_gs101-sepolicy" revision="topaz" remote="github" />
+  <project path="device/google/bluejay-sepolicy" name="CalyxOS/device_google_bluejay-sepolicy" revision="android13" remote="github" />
 
 
   <!-- KERNEL TREE -->
