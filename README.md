@@ -47,4 +47,6 @@ rm -rf external/android-nn-driver && git clone -b topaz https://github.com/AOSPA
 
 ```
 and pick these commits for necessary:
-https://github.com/AOSPA/android_device_google_gs101/commit/a40e7ad35d3199cafcc97a96f4671c4060bdefc11
+
+Avoid compile error: no matching constructor for initialization of 'aidl::android::hardware::power::stats::AocStateResidencyDataProvider'
+https://github.com/AOSPA/android_device_google_gs101/commit/a40e7ad35d3199cafcc97a96f4671c4060bdefc1
