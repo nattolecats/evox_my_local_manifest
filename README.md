@@ -46,3 +46,5 @@ rm -rf external/armnn && git clone -b topaz https://github.com/AOSPA/android_ext
 rm -rf external/android-nn-driver && git clone -b topaz https://github.com/AOSPA/android_external_android-nn-driver external/android-nn-driver
 
 ```
+and pick these commits for necessary:
+https://github.com/AOSPA/android_device_google_gs101/commit/a40e7ad35d3199cafcc97a96f4671c4060bdefc11
