@@ -6,16 +6,17 @@
   <project path="device/google/bluejay" name="nattolecats/device_google_bluejay" revision="tiramisu" remote="github" />
   <project path="device/google/gs101" name="nattolecats/device_google_gs101" revision="tiramisu" remote="github" />
   <project path="device/google/gs-common" name="CalyxOS/device_google_gs-common" revision="android13" remote="github" />
-  <project path="device/google/gs101-sepolicy" name="CalyxOS/device_google_gs101-sepolicy" revision="android13" remote="github" />
+  <project path="device/google/gs101-sepolicy" name="AOSPA/android_device_google_gs101-sepolicy" revision="topaz" remote="github" />
 
 
   <!-- KERNEL TREE -->
-  <project path="kernel/google/bluejay" name="AOSPA/android_device_google_bluejay-kernel" revision="topaz" remote="github" />
+  <project path="device/google/bluejay-kernel" name="AOSPA/android_device_google_bluejay-kernel" revision="topaz" remote="github" />
   <project path="kernel/google/gs101/private/gs-google" name="LineageOS/android_kernel_google_gs101" revision="lineage-20" remote="github" />
 
 
   <!-- VENDOR TREE -->
   <project path="vendor/google/bluejay" name="the-muppets/proprietary_vendor_google_bluejay" revision="lineage-20" remote="gitlab" />
-
+  
+  
   
 </manifest> 
