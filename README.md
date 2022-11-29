@@ -29,7 +29,7 @@ lunch evolution_bluejay-userdebug
 m evolution
 ```
 
-If you got build error or not working properly, try to replace this repo below:
+If you got something went wrong, try replace this repos below:
 
 ```bash
 
