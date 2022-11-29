@@ -29,22 +29,22 @@ lunch evolution_bluejay-userdebug
 m evolution
 ```
 
-and if you got build error, you can try to replace this repo below:
+If you got build error or not working properly, try to replace this repo below:
 
 ```bash
 
-# cd to root of your source
+# Go to root of your source
 croot
 
-# hardware/google/pixel from LineageOS
+# Avoid hardware source code error
 rm -rf hardware/google/pixel && git clone -b lineage-20.0 https://github.com/LineageOS/android_hardware_google_pixel hardware/google/pixel
-
-# hardware/google/gchips from LineageOS
 rm -rf hardware/google/gchips && git clone -b lineage-20.0 https://github.com/LineageOS/android_hardware_google_gchips hardware/google/gships
-
-# hardware/google/graphics/common from LineageOS
 rm -rf hardware/google/graphics/common && git clone -b lineage-20.0 https://github.com/LineageOS/android_hardware_google_graphics_common hardware/google/graphics/common
 
-# build/soong/ui/build/paths (patched)
+# Avoid neuralnetworks bug
+rm -rf external/armnn && git clone -b topaz https://github.com/AOSPA/android_external_armnn external/armnn
+rm -rf external/android-nn-driver && git clone -b topaz https://github.com/AOSPA/android_external_android-nn-driver external/android-nn-driver
+
+# Avoid pahole error during building kernel
 rm -rf build/soong/ui/build/paths && git clone -b tiramisu https://github.com/nattolecats/build_soong_ui_build_paths build/soong/ui/build/paths
 ```
