@@ -40,6 +40,8 @@ croot
 rm -rf hardware/google/pixel && git clone -b lineage-20.0 https://github.com/LineageOS/android_hardware_google_pixel hardware/google/pixel
 rm -rf hardware/google/gchips && git clone -b lineage-20.0 https://github.com/LineageOS/android_hardware_google_gchips hardware/google/gchips
 rm -rf hardware/google/graphics/common && git clone -b lineage-20.0 https://github.com/LineageOS/android_hardware_google_graphics_common hardware/google/graphics/common
+rm -rf hardware/qcom/sm7250/display && git clone -b lineage-20.0 https://github.com/LineageOS/android_hardware_qcom_sm7250_display hardware/qcom/sm7250/display
+rm -rf hardware/qcom/sm7250/media && git clone -b lineage-20.0 https://github.com/LineageOS/android_hardware_qcom_sm7250_media hardware/qcom/sm7250/media
 
 # Avoid neuralnetworks bug
 rm -rf external/armnn && git clone -b topaz https://github.com/AOSPA/android_external_armnn external/armnn
