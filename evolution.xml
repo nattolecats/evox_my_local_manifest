@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-
-  <!-- DEVICE TREE -->
+  
+  
+  <!-- Pixel 6a -->
+  
   <project path="device/google/bluejay" name="nattolecats/device_google_bluejay" revision="tiramisu" remote="github" />
   <project path="device/google/gs101" name="nattolecats/device_google_gs101" revision="tiramisu" remote="github" />
   <project path="device/google/gs-common" name="CalyxOS/device_google_gs-common" revision="android13" remote="github" />
   <project path="device/google/gs101-sepolicy" name="AOSPA/android_device_google_gs101-sepolicy" revision="topaz" remote="github" />
   <project path="device/google/bluejay-sepolicy" name="CalyxOS/device_google_bluejay-sepolicy" revision="android13" remote="github" />
 
-
-  <!-- KERNEL TREE -->
   <project path="device/google/bluejay-kernel" name="AOSPA/android_device_google_bluejay-kernel" revision="topaz" remote="github" />
   <project path="kernel/google/gs101/private/gs-google" name="LineageOS/android_kernel_google_gs101" revision="lineage-20" remote="github" />
 
-
-  <!-- VENDOR TREE -->
   <project path="vendor/google/bluejay" name="the-muppets/proprietary_vendor_google_bluejay" revision="lineage-20" remote="gitlab" />
   
+  
+  <!-- Pixel 4a (5G) -->
+  
+  <project path="device/google/bramble" name="nattolecats/device_google_bramble" revision="tiramisu" remote="github" />
+  <project path="device/google/redbull" name="HubertVonJass/device_google_redbull_13" revision="master" remote="github" />
+
+  <project path="kernel_google_redbull_13" name="HubertVonJass/kernel_google_redbull_13" revision="master" remote="github" />
+
+  <project path="vendor/google/bramble" name="TheMuppets/proprietary_vendor_google_bramble" revision="lineage-20" remote="github" />
   
   
 </manifest> 
