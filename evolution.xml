@@ -21,7 +21,7 @@
   <project path="device/google/bramble" name="nattolecats/device_google_bramble" revision="tiramisu" remote="github" />
   <project path="device/google/redbull" name="HubertVonJass/device_google_redbull_13" revision="master" remote="github" />
 
-  <project path="kernel_google_redbull_13" name="HubertVonJass/kernel_google_redbull_13" revision="master" remote="github" />
+  <project path="kernel/google/redbull" name="HubertVonJass/kernel_google_redbull_13" revision="master" remote="github" />
 
   <project path="vendor/google/bramble" name="TheMuppets/proprietary_vendor_google_bramble" revision="lineage-20" remote="github" />
   
