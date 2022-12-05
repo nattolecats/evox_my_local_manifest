@@ -4,8 +4,8 @@
   
   <!-- Pixel 6a -->
   
-  <project path="device/google/bluejay" name="nattolecats/device_google_bluejay" revision="tiramisu" remote="github" />
-  <project path="device/google/gs101" name="nattolecats/device_google_gs101" revision="tiramisu" remote="github" />
+  <project path="device/google/bluejay" name="nattolecats/device_google_bluejay" revision="tiramisu_evo" remote="github" />
+  <project path="device/google/gs101" name="nattolecats/device_google_gs101" revision="tiramisu_evo" remote="github" />
   <project path="device/google/gs-common" name="CalyxOS/device_google_gs-common" revision="android13" remote="github" />
   <project path="device/google/gs101-sepolicy" name="AOSPA/android_device_google_gs101-sepolicy" revision="topaz" remote="github" />
   <project path="device/google/bluejay-sepolicy" name="CalyxOS/device_google_bluejay-sepolicy" revision="android13" remote="github" />
@@ -18,7 +18,7 @@
   
   <!-- Pixel 4a (5G) -->
   
-  <project path="device/google/bramble" name="nattolecats/device_google_bramble" revision="tiramisu" remote="github" />
+  <project path="device/google/bramble" name="nattolecats/device_google_bramble" revision="tiramisu_evo" remote="github" />
   <project path="device/google/redbull" name="HubertVonJass/device_google_redbull_13" revision="master" remote="github" />
 
   <project path="kernel/google/redbull" name="LineageOS/android_kernel_google_redbull" revision="lineage-20" remote="github" />
