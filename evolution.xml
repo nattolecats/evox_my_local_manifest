@@ -35,6 +35,8 @@
   <project path="vendor/oneplus/denniz" name="SakilMondal/vendor_oneplus_denniz" revision="main" remote="github" />
   <project path="vendor/mediatek/ims" name="SakilMondal/vendor_mediatek_ims" revision="13" remote="github" />
   
+  <project path="packages/apps/OneplusParts" name="SakilMondal/android_packages_apps_OneplusParts" revision="13" remote="github" />
+  
   
   <!-- Proton-clang for older kernel building -->
   <project path="prebuilts/clang/host/linux-x86/proton" name="kdrag0n/proton-clang" remote="github" />
