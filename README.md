@@ -1,5 +1,5 @@
 # local_manifests
-Pixel 6a and Pixel 4a (5G) custom manifest for my unofficial Evolution X build.
+Custom manifest for my unofficial Evolution X build.
 
 ### Sync ###
 
