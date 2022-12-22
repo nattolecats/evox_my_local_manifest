@@ -44,25 +44,15 @@ rm -rf hardware/qcom/sm7250/display && git clone -b lineage-20.0 https://github.
 rm -rf hardware/qcom/sm7250/media && git clone -b lineage-20.0 https://github.com/LineageOS/android_hardware_qcom_sm7250_media hardware/qcom/sm7250/media
 
 # This is needed for build bluejay kernel.
-sudo apt install dwarves
-
-# Fix In-call Audio in denniz
-cd frameworks/av && git fetch https://github.com/PixelExperience-Denniz/frameworks_av c18c829a64e26e7d431903c09ba73ec2aaa905e3 && git cherry-pick FETCH_HEAD && cd -
-
-# Avoid neuralnetworks bug (No need?)
-rm -rf external/armnn && git clone -b topaz https://github.com/AOSPA/android_external_armnn external/armnn
-rm -rf external/android-nn-driver && git clone -b topaz https://github.com/AOSPA/android_external_android-nn-driver external/android-nn-driver
+sudo apt install -y dwarves
 
 ```
 and pick these commits for necessary:
 
-Avoid ninja error of Google Camera (No need?): 
-https://github.com/nattolecats/vendor_gms/commit/38a6d64ef03b72bb6c3571a4d67f9a651c152014
-
 Avoid compile error: no matching constructor for initialization of 'aidl::android::hardware::power::stats::AocStateResidencyDataProvider'
 https://github.com/AOSPA/android_device_google_gs101/commit/a40e7ad35d3199cafcc97a96f4671c4060bdefc1
 
-for SafetyNet:
+for SafetyNet on Pixel devices:
 https://github.com/nattolecats/frameworks_base/commit/b1e97799758c60485a3beb899278c0e7fefe4b96
 
 For build bluejay kernel:
