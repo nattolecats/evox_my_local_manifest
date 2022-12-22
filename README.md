@@ -43,12 +43,15 @@ rm -rf hardware/google/graphics/common && git clone -b lineage-20.0 https://gith
 rm -rf hardware/qcom/sm7250/display && git clone -b lineage-20.0 https://github.com/LineageOS/android_hardware_qcom_sm7250_display hardware/qcom/sm7250/display
 rm -rf hardware/qcom/sm7250/media && git clone -b lineage-20.0 https://github.com/LineageOS/android_hardware_qcom_sm7250_media hardware/qcom/sm7250/media
 
-# Avoid neuralnetworks bug
-rm -rf external/armnn && git clone -b topaz https://github.com/AOSPA/android_external_armnn external/armnn
-rm -rf external/android-nn-driver && git clone -b topaz https://github.com/AOSPA/android_external_android-nn-driver external/android-nn-driver
+# This is needed for build bluejay kernel.
+sudo apt install dwarves
 
 # Fix In-call Audio in denniz
 cd frameworks/av && git fetch https://github.com/PixelExperience-Denniz/frameworks_av c18c829a64e26e7d431903c09ba73ec2aaa905e3 && git cherry-pick FETCH_HEAD && cd -
+
+# Avoid neuralnetworks bug (No need?)
+rm -rf external/armnn && git clone -b topaz https://github.com/AOSPA/android_external_armnn external/armnn
+rm -rf external/android-nn-driver && git clone -b topaz https://github.com/AOSPA/android_external_android-nn-driver external/android-nn-driver
 
 ```
 and pick these commits for necessary:
@@ -61,3 +64,6 @@ https://github.com/AOSPA/android_device_google_gs101/commit/a40e7ad35d3199cafcc9
 
 for SafetyNet:
 https://github.com/nattolecats/frameworks_base/commit/b1e97799758c60485a3beb899278c0e7fefe4b96
+
+For build bluejay kernel:
+https://github.com/nattolecats/build_soong_ui_build_paths/commit/ad40bac67fc8be9af3f6a23fe5626a90b3073f12
