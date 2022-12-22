@@ -28,7 +28,7 @@
   
   <!-- OnePlus Nord2 5G -->
   
-  <project path="device/oneplus/denniz" name="nattolecats/device_oneplus/denniz" revision="tiramisu" remote="github" />
+  <project path="device/oneplus/denniz" name="nattolecats/device_oneplus_denniz" revision="tiramisu" remote="github" />
   
   <project path="kernel/oneplus/denniz" name="SakilMondal/android_kernel_oneplus_denniz" revision="12.1" remote="github" />
   
