@@ -39,7 +39,7 @@
   
   
   <!-- Proton-clang for older kernel building -->
-  <project path="prebuilts/clang/host/linux-x86/proton" name="kdrag0n/proton-clang" remote="github" />
+  <project path="prebuilts/clang/host/linux-x86/proton" name="kdrag0n/proton-clang" revision="master" remote="github" />
   
   
 </manifest> 
