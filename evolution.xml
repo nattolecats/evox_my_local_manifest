@@ -11,7 +11,7 @@
   <project path="device/google/gs101-sepolicy" name="CalyxOS/device_google_gs101-sepolicy" revision="android13" remote="github" />
   <project path="device/google/bluejay-sepolicy" name="CalyxOS/device_google_bluejay-sepolicy" revision="android13" remote="github" />
   <project path="device/google/bluejay-kernel" name="CalyxOS/device_google_bluejay-kernel" revision="android13" remote="github" />
-  <project path="vendor/google/bluejay" name="nattolecats/vendor_google_bluejay" revision="tiramisu" remote="github" />
+  <project path="vendor/google/bluejay" name="the-muppets/proprietary_vendor_google_bluejay" revision="lineage-20" remote="gitlab" />
   <project path="kernel/google/gs101/private/gs-google" name="LineageOS/android_kernel_google_gs101" revision="lineage-20" remote="github" />
   
  
