@@ -23,37 +23,8 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 . build/envsetup.sh
 
 # Choose a target
-lunch evolution_bluejay-userdebug
+lunch evolution_denniz-userdebug
 
 # Build the code
 m evolution
 ```
-
-If you got something went wrong, try replace this repos below:
-
-```bash
-
-# Go to root of your source
-croot
-
-# Avoid hardware source code error
-rm -rf hardware/google/pixel && git clone -b lineage-20.0 https://github.com/LineageOS/android_hardware_google_pixel hardware/google/pixel
-rm -rf hardware/google/gchips && git clone -b lineage-20.0 https://github.com/LineageOS/android_hardware_google_gchips hardware/google/gchips
-rm -rf hardware/google/graphics/common && git clone -b lineage-20.0 https://github.com/LineageOS/android_hardware_google_graphics_common hardware/google/graphics/common
-rm -rf hardware/qcom/sm7250/display && git clone -b lineage-20.0 https://github.com/LineageOS/android_hardware_qcom_sm7250_display hardware/qcom/sm7250/display
-rm -rf hardware/qcom/sm7250/media && git clone -b lineage-20.0 https://github.com/LineageOS/android_hardware_qcom_sm7250_media hardware/qcom/sm7250/media
-
-# This is needed for build bluejay kernel.
-sudo apt install -y dwarves
-
-```
-and pick these commits for necessary:
-
-Avoid compile error: no matching constructor for initialization of 'aidl::android::hardware::power::stats::AocStateResidencyDataProvider'
-https://github.com/AOSPA/android_device_google_gs101/commit/a40e7ad35d3199cafcc97a96f4671c4060bdefc1
-
-for SafetyNet on Pixel devices:
-https://github.com/nattolecats/frameworks_base/commit/b1e97799758c60485a3beb899278c0e7fefe4b96
-
-For build bluejay kernel:
-https://github.com/nattolecats/build_soong_ui_build_paths/commit/ad40bac67fc8be9af3f6a23fe5626a90b3073f12
