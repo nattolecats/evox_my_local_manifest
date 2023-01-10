@@ -14,7 +14,7 @@
   
   
   <!-- Oplus Hardware Tree -->
-  <project path="hardware/oplus" name="Evolution-X-Devices/hardware_oplus" revision="master" remote="github" />
+  <project path="hardware/oplus" name="Evolution-X-Devices/hardware_oplus" revision="tiramisu" remote="github" />
   
   
   <!-- Proton-clang for older kernel building -->
