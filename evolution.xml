@@ -3,30 +3,6 @@
   
   
   
-  <!-- Pixel 6a -->
-  
-  <project path="device/google/bluejay" name="nattolecats/device_google_bluejay" revision="tiramisu" remote="github" />
-  <project path="device/google/gs101" name="nattolecats/device_google_gs101" revision="tiramisu" remote="github" />
-  <project path="device/google/gs-common" name="CalyxOS/device_google_gs-common" revision="android13" remote="github" />
-  <project path="device/google/gs101-sepolicy" name="CalyxOS/device_google_gs101-sepolicy" revision="android13" remote="github" />
-  <project path="device/google/bluejay-sepolicy" name="CalyxOS/device_google_bluejay-sepolicy" revision="android13" remote="github" />
-  <project path="device/google/bluejay-kernel" name="CalyxOS/device_google_bluejay-kernel" revision="android13" remote="github" />
-  <project path="vendor/google/bluejay" name="the-muppets/proprietary_vendor_google_bluejay" revision="lineage-20" remote="gitlab" />
-  <project path="kernel/google/gs101/private/gs-google" name="LineageOS/android_kernel_google_gs101" revision="lineage-20" remote="github" />
-  
- 
-  
-  <!-- Pixel 4a (5G) -->
-  
-  <project path="device/google/bramble" name="nattolecats/device_google_bramble" revision="tiramisu" remote="github" />
-  <project path="device/google/redbull" name="nattolecats/device_google_redbull" revision="tiramisu" remote="github" />
-
-  <project path="kernel/google/redbull" name="LineageOS/android_kernel_google_redbull" revision="lineage-20" remote="github" />
-
-  <project path="vendor/google/bramble" name="TheMuppets/proprietary_vendor_google_bramble" revision="lineage-20" remote="github" />
-  
-  
-  
   <!-- OnePlus Nord2 5G -->
   
   <project path="device/oneplus/denniz" name="nattolecats/device_oneplus_denniz" revision="tiramisu" remote="github" />
@@ -36,24 +12,14 @@
   <project path="vendor/oneplus/denniz" name="SakilMondal/vendor_oneplus_denniz" revision="main" remote="github" />
   <project path="vendor/mediatek/ims" name="SakilMondal/vendor_mediatek_ims" revision="13" remote="github" />
   
-  <project path="packages/apps/OneplusParts" name="SakilMondal/android_packages_apps_OneplusParts" revision="13" remote="github" />
+  
+  <!-- Oplus Hardware Tree -->
+  <project path="hardware/oplus" name="Evolution-X-Devices/hardware_oplus" revision="master" remote="github" />
   
   
   <!-- Proton-clang for older kernel building -->
   <project path="prebuilts/clang/host/linux-x86/proton" name="kdrag0n/proton-clang" revision="master" remote="github" />
   
-  
-  
-  <!-- Mi 11 Lite 5G -->
-  
-  <project path="device/xiaomi/renoir" name="nattolecats/device_xiaomi_renoir" revision="tiramisu" remote="github" />
-  <project path="device/xiaomi/sm8350-common" name="nattolecats/device_xiaomi_sm8350-common" revision="tiramisu" remote="github" />
-  
-  <project path="kernel/xiaomi/sm8350" name="Project-Awaken/android_kernel_xiaomi_sm8350" revision="triton" remote="github" />
-  
-  <project path="vendor/xiaomi/renoir" name="nattolecats/vendor_xiaomi_renoir" revision="11.0" remote="github" />
-  <project path="vendor/xiaomi/sm8350-common" name="Evolution-X-Devices/vendor_xiaomi_sm8350-common" revision="tiramisu" remote="github" />
-    
   
   
 </manifest> 
