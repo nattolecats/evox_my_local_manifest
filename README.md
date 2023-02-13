@@ -23,7 +23,7 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 . build/envsetup.sh
 
 # Choose a target
-lunch evolution_denniz-userdebug
+lunch evolution_$DEVICE-userdebug
 
 # Build the code
 m evolution
