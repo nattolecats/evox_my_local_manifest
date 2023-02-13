@@ -2,6 +2,23 @@
 <manifest>
   
   
+  <!-- GitHub -->
+  <remote  name="github"
+           fetch="https://github.com" />
+  
+  
+  
+  <!-- Pixel 4a (5G) -->
+  
+  <project path="device/google/bramble" name="nattolecats/device_google_bramble" revision="tiramisu-pixel" remote="github" />
+  
+  <project path="device/google/redbull" name="HubertVonJass/android_device_google_redbull" revision="lineage-20" remote="github" />
+  
+  <project path="kernel/google/redbull" name="HubertVonJass/android_kernel_google_redbull" revision="lineage-20" remote="github" />
+  
+  <project path="vendor/google/bramble" name="TheMuppets/proprietary_vendor_google_bramble" revision="lineage-20" remote="github" />
+  
+  
   
   <!-- OnePlus Nord2 5G -->
   
@@ -13,6 +30,7 @@
   <project path="vendor/mediatek/ims" name="SakilMondal/vendor_mediatek_ims" revision="13" remote="github" />
   
   <project path="packages/apps/OneplusParts" name="nattolecats/packages_apps_OneplusParts" revision="tiramisu" remote="github" />
+  <project path="packages/apps/OPlusExtras" name="AnierinBliss/packages_apps_OPlusExtras" revision="tiramisu" remote="github" />
   
   
   <!-- Proton-clang for older kernel building -->
