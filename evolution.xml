@@ -19,9 +19,5 @@
   <project path="vendor/google/bramble" name="TheMuppets/proprietary_vendor_google_bramble" revision="lineage-20" remote="github" />
   
   
-  <!-- Proton-clang for older kernel building -->
-  <project path="prebuilts/clang/host/linux-x86/proton" name="kdrag0n/proton-clang" revision="master" remote="github" />
-  
-  
   
 </manifest> 
