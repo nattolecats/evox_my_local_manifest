@@ -2,28 +2,26 @@
 <manifest>
   
   
-  <!-- GitHub -->
-  <remote  name="github"
-           fetch="https://github.com" />
+    <!-- GitHub -->
+    <remote  name="github"
+             fetch="https://github.com" />
+    
+    
+    <!-- OnePlus Nord2 5G -->
+    
+    <project path="device/oneplus/denniz" name="nattolecats/device_oneplus_denniz" revision="tiramisu" remote="github" />
+    
+    <project path="kernel/oneplus/denniz" name="nattolecats/kernel_oneplus_denniz" revision="tiramisu" remote="github" />
+    
+    <project path="vendor/oneplus/denniz" name="nattolecats/vendor_oneplus_denniz" revision="tiramisu" remote="github" />
+    <project path="vendor/mediatek/ims" name="nattolecats/vendor_mediatek_ims" revision="tiramisu" remote="github" />
+    
+    <project path="packages/apps/OPlusExtras" name="nattolecats/packages_apps_OPlusExtras" revision="tiramisu" remote="github" />
+    <project path="packages/apps/prebuilt-apps" name="nattolecats/packages_apps_prebuilt-apps" revision="tiramisu" remote="github" />
+    
+    
+    <!-- Proton-clang for older kernel building -->
+    <project path="prebuilts/clang/host/linux-x86/proton" name="kdrag0n/proton-clang" revision="master" remote="github" />
   
   
-  
-  <!-- OnePlus Nord2 5G -->
-  
-  <project path="device/oneplus/denniz" name="nattolecats/device_oneplus_denniz" revision="tiramisu" remote="github" />
-  
-  <project path="kernel/oneplus/denniz" name="nattolecats/kernel_oneplus_denniz" revision="tiramisu" remote="github" />
-  
-  <project path="vendor/oneplus/denniz" name="SakilMondal/vendor_oneplus_denniz" revision="main" remote="github" />
-  <project path="vendor/mediatek/ims" name="SakilMondal/vendor_mediatek_ims" revision="13" remote="github" />
-  
-  <project path="packages/apps/OneplusParts" name="nattolecats/packages_apps_OneplusParts" revision="tiramisu" remote="github" />
-  <project path="packages/apps/OPlusExtras" name="AnierinBliss/packages_apps_OPlusExtras" revision="tiramisu" remote="github" />
-  
-  
-  <!-- Proton-clang for older kernel building -->
-  <project path="prebuilts/clang/host/linux-x86/proton" name="kdrag0n/proton-clang" revision="master" remote="github" />
-  
-  
-  
-</manifest> 
+</manifest>
