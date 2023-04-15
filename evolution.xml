@@ -10,7 +10,7 @@
   
   <!-- Pixel 4a (5G) -->
   
-  <project path="device/google/bramble" name="nattolecats/device_google_bramble" revision="tiramisu-pixel" remote="github" />
+  <project path="device/google/bramble" name="nattolecats/device_google_bramble" revision="tiramisu" remote="github" />
   
   <project path="device/google/redbull" name="HubertVonJass/android_device_google_redbull" revision="lineage-20" remote="github" />
   
