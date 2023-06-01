@@ -24,7 +24,7 @@
     <project path="kernel/oneplus/denniz" name="nattolecats/kernel_oneplus_denniz" revision="tiramisu" remote="github" />
     
     <project path="vendor/oneplus/denniz" name="nattolecats/vendor_oneplus_denniz" revision="tiramisu" remote="github" />
-    <project path="vendor/mediatek/ims" name="nattolecats/vendor_mediatek_ims" revision="tiramisu" remote="github" />
+    <project path="vendor/oneplus/IMS-denniz" name="nattolecats/vendor_oneplus_IMS-denniz" revision="tiramisu" remote="github" />
     
     <project path="packages/apps/OPlusExtras" name="Evolution-X-Devices/packages_apps_OPlusExtras" revision="tiramisu" remote="github" />
     
