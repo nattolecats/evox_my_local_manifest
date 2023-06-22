@@ -22,9 +22,8 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 # Set up environment
 . build/envsetup.sh
 
-# Choose a target
-lunch evolution_$DEVICE-userdebug
-
 # Build the code
-m evolution
+brunch $DEVICE
 ```
+
+`brunch` is recommended because my tree contains `vendorsetup.sh` automatic setting up environment. and also for MTK, do patch to source codes. For EvoX, `lunch` triggers running `vendorsetup.sh`. if you're have confidence of don't forget, you can also do `lunch evolution_$DEVICE-userdebug && m evolution` instead.
