@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Initialize remotes -->
+  <remote name="github" fetch="https://github.com/" />
+  <remote name="gitlab" fetch="https://gitlab.com/" />
+  <!--<remote name="lineage" fetch="https://github.com/LineageOS/" />-->
+
+  <!-- Remove conflicts -->
+  <remove-project path="hardware/google/pixel" />
+  <remove-project path="hardware/google/gchips" />
+  <remove-project path="hardware/google/graphics/common" />
+
+  <!-- My repos -->
+  <project path="device/google/pantah" name="nattolecats/device_google_pantah" remote="github" revision="14-blaze" />
+  <project path="device/google/gs201" name="nattolecats/device_google_gs201" remote="github" revision="14-blaze" />
+  <project path="vendor/google/panther" name="nattolecats/vendor_google_panther" remote="gitlab" revision="14" />
+
+  <!-- From LineageOS -->
+  <project path="device/google/gs101" name="android_device_google_gs101" remote="lineage" revision="lineage-21" />
+  <project path="device/google/gs-common" name="android_device_google_gs-common" remote="lineage" revision="lineage-21" />
+  <project path="kernel/google/gs201/private/gs-google" name="android_kernel_google_gs201" remote="lineage" revision="lineage-21" />
+  <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="lineage" revision="lineage-21.0" />
+  <project path="hardware/google/gchips" name="android_hardware_google_gchips" remote="lineage" revision="lineage-21.0" />
+  <project path="hardware/google/graphics/common" name="android_hardware_google_graphics_common" remote="lineage" revision="lineage-21.0" />
+
+</manifest>
